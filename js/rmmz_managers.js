@@ -2947,6 +2947,7 @@ BattleManager.updateBattleEnd = function() {
     } else {
         SceneManager.pop();
     }
+    $gameTemp.reserveCommonEvent(17);//觸發一般劇情(17)，臉恢復
     this._phase = "";
 };
 
